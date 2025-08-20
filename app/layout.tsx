@@ -1,34 +1,25 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Space_Grotesk, DM_Sans } from "next/font/google"
-import "./globals.css"
+import { cn } from "@/lib/utils"
+import { TooltipProvider } from "@/components/ui/tooltip"
+import { Inter } from "next/font/google"
+import type { ReactNode } from "react"
 
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-space-grotesk",
-})
+const inter = Inter({ subsets: ["latin"] })
 
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-dm-sans",
-})
-
-export const metadata: Metadata = {
-  title: "ChatBot Admin - Facebook Chatbot Management",
-  description: "Admin dashboard for managing Facebook chatbots with ChatGPT integration",
-  generator: "v0.app",
+export const metadata = {
+  title: "OpenAI and AI SDK Chatbot",
+  description: "A simple chatbot built using the AI SDK and gpt-4o-mini.",
+    generator: 'v0.app'
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="vi" className={`${spaceGrotesk.variable} ${dmSans.variable} antialiased`}>
-      <body className="font-sans bg-background text-foreground">{children}</body>
+    <html lang="en">
+      <body className={cn("flex min-h-svh flex-col antialiased", inter.className)}>
+        <TooltipProvider delayDuration={0}>{children}</TooltipProvider>
+      </body>
     </html>
   )
 }
+
+
+import './globals.css'

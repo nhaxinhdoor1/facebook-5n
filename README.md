@@ -1,9 +1,9 @@
-# [No content]
+# OpenAI and AI SDK Chatbot
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/tranvuhuongtra1999s-projects/v0-no-content)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/rKe2ZhAdXDJ)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/cuanhomnhaxinh-9499s-projects/v0-open-ai-and-ai-sdk-chatbot)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/OPVXfghkhlD)
 
 ## Overview
 
@@ -14,13 +14,13 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/tranvuhuongtra1999s-projects/v0-no-content](https://vercel.com/tranvuhuongtra1999s-projects/v0-no-content)**
+**[https://vercel.com/cuanhomnhaxinh-9499s-projects/v0-open-ai-and-ai-sdk-chatbot](https://vercel.com/cuanhomnhaxinh-9499s-projects/v0-open-ai-and-ai-sdk-chatbot)**
 
 ## Build your app
 
 Continue building your app on:
 
-**[https://v0.app/chat/projects/rKe2ZhAdXDJ](https://v0.app/chat/projects/rKe2ZhAdXDJ)**
+**[https://v0.app/chat/projects/OPVXfghkhlD](https://v0.app/chat/projects/OPVXfghkhlD)**
 
 ## How It Works
 
